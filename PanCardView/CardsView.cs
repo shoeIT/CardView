@@ -1223,7 +1223,7 @@ namespace PanCardView
             {
                 for (var i = 0; i < ItemsCount; ++i)
                 {
-                    if (ItemsSource[i] == CurrentView.BindingContext)
+                    if (ItemsSource[i] == CurrentView.BindingContext || ItemsSource[i] == CurrentView)
                     {
                         index = i;
                         isCurrentContextPresent = true;
