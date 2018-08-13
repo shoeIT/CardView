@@ -473,8 +473,8 @@ namespace PanCardView
             {
                 SetLayoutBounds(view, new Rectangle(0, 0, 1, 1));
                 SetLayoutFlags(view, AbsoluteLayoutFlags.All);
-                view.GestureRecognizers.Remove(_tapGesture);
-                view.GestureRecognizers.Add(_tapGesture);
+               // view.GestureRecognizers.Remove(_tapGesture);
+               // view.GestureRecognizers.Add(_tapGesture);
             }
         }
 
